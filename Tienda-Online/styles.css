@@ -1,0 +1,29 @@
+/* Quita los márgenes y rellenos de todos los elementos */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hace que el cuerpo de la página ocupe toda la pantalla y fija la fuente */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+/* Quita los puntos de las listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Hace que las imágenes no se salgan de su contenedor */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Hereda las fuentes para los campos de texto y botones */
+input, button, textarea, select {
+  font: inherit;
+}
