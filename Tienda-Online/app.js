@@ -1,0 +1,2 @@
+MediaStreamAudioDestinationNode
+satisfies
